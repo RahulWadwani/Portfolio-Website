@@ -1,0 +1,196 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set a default font family */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #0099FF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+/* Apply a transition to change the background color on hover */
+.button {
+    background-color: #0099FF;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #66CCFF;
+}
+
+/* Style the sections */
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 28px;
+}
+
+/* Style the Education section */
+#education {
+    background-color: #fff; /* Set a background color */
+    padding: 40px;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    background-color: #f5f5f5; /* Set a background color */
+    display: inline-block; /* Display items inline-block to size based on content */
+    padding: 5px 10px; /* Adjust padding to match the length of the words */
+    border-radius: 5px; /* Round the edges */
+    transition: background-color 0.3s ease;  /* Add a smooth transition effect */
+}
+
+.education-item h3 {
+    font-size: 24px;
+}
+
+.education-item strong {
+    font-weight: bold;
+}
+.education-item:hover {
+    background-color: #0099FF; /* Set the background color on hover */
+    color: #fff; /* Change text color on hover */
+    cursor: pointer; /* Change the cursor to indicate interactivity */
+}
+
+/* Style the Skills section */
+#skills {
+    background-color: #fff; /* Set a background color */
+    padding: 40px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.skill-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    display: inline-block; /* Make each skill item inline-block to size background based on content */
+    padding: 5px 10px; /* Add padding to create rounded edges */
+    border-radius: 10px; /* Round the edges */
+}
+.skill-list li:hover {
+    background-color: #0099FF; /* Set the background color on hover */
+    color: #fff; /* Change text color on hover */
+    cursor: pointer; /* Change the cursor to indicate interactivity */
+}
+
+/* Style project links */
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    display: inline-block; /* Make each skill item inline-block to size background based on content */
+    padding: 5px 10px; /* Add padding to create rounded edges */
+    border-radius: 10px; /* Round the edges */
+}
+
+#projects a {
+    text-decoration: none;
+    color: #000 ;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+    color:#0099FF; /* Change text color on hover */
+    cursor: pointer; /* Change the cursor to indicate interactivity */
+}
+
+
+/* Style the footer (Contact Me section) */
+#contact {
+    background-color: #0099FF; /* Set a background color */
+    color: #fff; /* Set text color to white */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center-align text */
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+    
+    nav ul li {
+        margin-right: 10px;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    
+    section h2 {
+        font-size: 24px;
+    }
+    
+    .portfolio-item h3 {
+        font-size: 20px;
+    }
+    
+    .portfolio-item p {
+        font-size: 14px;
+    }
+}
